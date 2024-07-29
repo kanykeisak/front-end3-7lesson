@@ -1,0 +1,36 @@
+.characters {
+    background: black;
+    padding: 100px 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.persons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.person_block {
+    border: 1px solid white;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.person_photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.person_block img {
+    width: 100%;
+    height: 100%;
+}
+
+.person_block p {
+    color: white;
+}
